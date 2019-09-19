@@ -1,0 +1,81 @@
+body{
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 10px 15px;
+}
+p{
+    margin-bottom: 0;
+    
+}
+
+h1{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+h2{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+
+}
+
+.border_bottom{
+    border-bottom: solid 1px tomato;
+}
+
+.tomato, .dodgeBlue{
+width: 25px;
+height: 25px;
+display: inline-block;
+margin-right: 5px;
+}
+.tomato{
+    background-color: tomato;
+}
+.dodgeBlue{
+    background-color: dodgerblue;
+}
+.favorite-color{
+    background-color: darkgrey;
+    margin: 5px;
+    padding: 10px;
+}
+
+.name-tomato {
+    color: tomato;
+    margin: 5px 0
+}
+.name-dodgeblue{
+    color: dodgerblue;
+    margin: 5p  x 0
+}
+
+.bg-image{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 75px;
+
+}
+
+.moe{
+    background-image: url(https://i.pinimg.com/236x/9f/5d/28/9f5d28495eb73330e537debe8e107e16--chain-mail-moe-howard.jpg);
+}
+
+.larry_0 {
+    background-image: url(https://i.pinimg.com/originals/a2/8a/9e/a28a9e980cc3de007ab6eabe9f89855e.jpg)
+}
+
+.larry_1{
+    background-image: url(https://vignette.wikia.nocookie.net/stooges/images/3/3a/Stoogelogo.gif/revision/latest?cb=20081208233311)
+}
+
+.shemp{
+    background-image: url(https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/4/13/4130a25e-a7f9-11e0-8b76-001a4bcf6878/4e14a1c45836d.image.jpg)
+}
