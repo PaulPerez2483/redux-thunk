@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+div#container {
+    display: flex;
+    border: 1px solid black;
+
+}
+div.control_holder{
+padding: 15px;
+background-color: lightgray;
+flex: 1 1 0;
+}
+div.canvas_holder {
+    padding: 15px;
+    flex: 1 1 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form > button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+div#palette{
+    display: flex;
+    cursor: pointer;
+}
+div#palette > .color {
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+    border: 1px solid black
+}
+
+div#palette .color:nth-child(1) {
+    background-color: red;
+}
+div#palette .color:nth-child(2) {
+    background-color: blue
+}
+div#palette .color:nth-child(3) {
+    background-color: green
+}
+div#palette .color:nth-child(4) {
+    background-color: yellow
+}
+div#palette .color:nth-child(5) {
+    background-color: dodgerblue
+}
+
+div.row_parent {
+    display: flex;
+}
+div.row_parent > .col_child {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.doubleBorder {
+    border: 2px solid  black !important
+}
+
